@@ -219,7 +219,7 @@ def exec_program(cmdline):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='mxmo')
+    parser = argparse.ArgumentParser(description='SelBias')
     parser.add_argument('-t', '--gtree', dest='genetree', required=True, help="Either the filename or the newick of the genetree")
     parser.add_argument('-w', '--wdir', dest="wdir", help="Working directory to use. Default will be a tmp folder created in the current directory")
     parser.add_argument('--gcode', default='1', help="Genetic code to use")
