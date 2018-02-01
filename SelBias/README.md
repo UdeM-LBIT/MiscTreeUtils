@@ -17,8 +17,12 @@
       --gcode GCODE         Genetic code to use
       --mxmo                Compute MxMo as described in the paper
       --hyptest H0|H1       The two models to test. List of valid pair are:
-                            bsA1|bsA, M0|b_free, b_neut|b_free, M3|bsD, M1|bsA.
-                            Just use 'b_neut|b_free') or avoid this option.
+                            - bsA1|bsA
+                            - M0|b_free
+                            - b_neut|b_free
+                            - M3|bsD
+                            - M1|bsA.
+                            Just use 'b_neut|b_free' or avoid this option.
       --freemodel           Free ratio on each branch of the tree
       --codaln CODALN, -c CODALN
                             Codon alignment
